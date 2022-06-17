@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar {
+  background: #f55a5a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  color: #ffffff;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.startend {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  padding-top: 50px;
+  position: absolute;
+  left: 17%;
+}
+.desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  padding-top: 8%;
+  position: absolute;
+  max-width: 240px;
+  left: 17%;
+}
+.logo {
+  width: 15px;
+  height: 15px;
+  padding: 0% 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.location--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.journal-info > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  left: 17%;
+}
+
+.journal-info {
+  padding: 20px;
+  display: flex;
+}
+
+.location--logo {
+  width: 7px;
+  height: 9.55px;
+  padding-left: 10px;
+}
+
+.location-info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  padding: 0px 5px;
+}
+
+body {
+  max-width: 400px;
+  border: black solid 1px;
+  border-radius: 5px;
 }
